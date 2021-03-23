@@ -1,0 +1,12 @@
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  IPGKinematics  Version 3.6.9                                            Model: Raumlenker                                   
+  ----------------------------------------------------------------------------------------------------------------------------
+
+   Table: Simplifications                                                 Demo data                                           
+
+   Mass-Forces         - switched off                       
+   Axle-Spring         - switched off                       
+   Stabilizer          - switched off                       
+   Bushings            - Stiffness             [N/mm] :       10000.00
+

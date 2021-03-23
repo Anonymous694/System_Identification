@@ -1,0 +1,49 @@
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  IPGKinematics  Version 3.6.9                                            Model: Raumlenker                                   
+  ----------------------------------------------------------------------------------------------------------------------------
+
+   Table: Geometry                                                        Demo data                                           
+
+   Geometry [mm]: X - Y - Z                                       
+   -----------------------------------------------                
+   Axis System                                                    
+   0 = DIN 70000, 1 = Automobil Industrie                            0
+                                                                  
+   Point  1 Wheel Center                                                 0.000         587.000         235.000
+   Point  2 Center of Tire Contact                                       0.000         594.400           0.000
+   Point  3 Force Application Tire Forces                                0.000         594.400           0.000
+   Point  4 Body - Chassis Subframe Front                              100.000         207.000         220.000
+   Point  5 Body - Chassis Subframe Rear                              -100.000         207.000         220.000
+   Point  6 Wheel Carrier    - Lower Rod Front                          40.000         482.000         184.000
+   Point  7 Wheel Carrier    - Lower Rod Rear                          -40.000         482.000         184.000
+   Point  8 Wheel Carrier    - Upper Rod Front                          40.000         453.000         327.000
+   Point  9 Wheel Carrier    - Upper Rod Rear                          -40.000         453.000         327.000
+   Point 10 Wheel Carrier    - Steering Rod                             80.000         419.000         242.350
+   Point 11 Subframe         - Lower Rod Front                         100.000         239.000         220.000
+   Point 12 Subframe         - Lower Rod Rear                         -100.000         239.000         200.000
+   Point 13 Subframe         - Upper Rod Front                         100.000         259.000         333.000
+   Point 14 Subframe         - Upper Rod Rear                         -100.000         259.000         353.000
+   Point 15 Subframe         - Stabilizer Bar                          200.000         493.000         335.000
+   Point 16 Stabilizer Bar   - Stabilizer Link                           0.000         493.000         335.000
+   Point 17 Stabilizer Link  - Wheel Suspension                          0.000         493.000         235.000
+   Point 18 Steering Rod     - Steering Rack                            80.000         273.000         260.000
+   Point 19 Chassis Subframe - Steering Gearbox                        200.000         100.000         335.000
+   Point 20 Spring           - Body                                      0.000         322.200         346.000
+   Point 21 Spring           - Wheel Suspension                          0.000         399.000         254.300
+   Point 22 Damper           - Body                                      0.000         322.200         346.000
+   Point 23 Damper           - Lower Rod Front                           0.000         399.000         254.300
+   Point 24 Axle Drive Shaft - Differential                              0.000         100.000         235.000
+   Point 25 Axle Drive Shaft - Wheel                                     0.000         525.000         235.000
+                                                                  
+   Geometry by using Pull/Push Rods                               
+   ----------------------------------------                       
+   Point 26 Body           - Rocker Arm                                 85.000        -475.000          25.000
+   Point 27 Rotation Axis  - Rocker Arm                                 85.000        -440.000          30.000
+   Point 28 Pull/Push Rod  - Wheel Suspension                           25.000        -575.000         290.000
+   Point 29 Pull/Push Rod  - Rocker Arm                                  0.000        -475.000          30.000
+   Point 30 Spring Element - Body                                      400.000        -480.000         -85.000
+   Point 31 Spring Element - Rocker Arm                                100.000        -490.000         140.000
+                                                                  
+   Point 32 Body -> Turning Circle Dia.: X-Y-Radius                   -500.000        -775.000         250.000
+                                                                  

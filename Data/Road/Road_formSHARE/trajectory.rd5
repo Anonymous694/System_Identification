@@ -1,0 +1,77 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = IPGRoad 6.0
+FileCreator = CarMaker 6.0.6
+LibVersion = 6.0.6
+Country = DEU
+nLinks = 1
+nJunctions = 1
+nObjects = 52
+nRoutes = 2
+RoadNetworkLength = 717.07963267949
+BBox = -75 195 -75 55 -1 1
+Route.0.Length = 717.07963267949
+Route.1.Length = 717.07963267949
+RST.Unit = kmh
+RST = 50 100 -3.6 30 70 50 -3.6 -3.6
+Movie = 0.2 1 0.02 0 0 0.2 0.2
+PathMode = 0
+Junction.0.Knot = 0 0 0
+Junction.0.Arm.0 = 0 0 0
+Junction.0.Arm.1 = 180 0 0
+Junction.0.MainArms = 0 1
+Link.0.Junctions = 0 0 0 1
+Link.0.Friction = 1
+Link.0.Seg.0.Type = Straight
+Link.0.Seg.0.Param = 50 0 0 0 0 0 0 0
+Link.0.Seg.1.Type = TurnRight
+Link.0.Seg.1.Param = 10 90 0 0 0 0 0 0
+Link.0.Seg.2.Type = Straight
+Link.0.Seg.2.Param = 50 0 0 0 0 0 0 0
+Link.0.Seg.3.Type = TurnLeft
+Link.0.Seg.3.Param = 10 90 0 0 0 0 0 0
+Link.0.Seg.4.Type = Straight
+Link.0.Seg.4.Param = 100 0 0 0 0 0 0 0
+Link.0.Seg.5.Type = TurnLeft
+Link.0.Seg.5.Param = 20 90 0 0 0 0 0 0
+Link.0.Seg.6.Type = Straight
+Link.0.Seg.6.Param = 80 0 0 0 0 0 0 0
+Link.0.Seg.7.Type = TurnLeft
+Link.0.Seg.7.Param = 20 90 0 0 0 0 0 0
+Link.0.Seg.8.Type = Straight
+Link.0.Seg.8.Param = 220 0 0 0 0 0 0 0
+Link.0.Seg.9.Type = TurnLeft
+Link.0.Seg.9.Param = 20 90 0 0 0 0 0 0
+Link.0.Seg.10.Type = Straight
+Link.0.Seg.10.Param = 10 0 0 0 0 0 0 0
+Link.0.Seg.11.Type = TurnLeft
+Link.0.Seg.11.Param = 20 90 0 0 0 0 0 0
+Link.0.Seg.12.Type = Straight
+Link.0.Seg.12.Param = 50 0 0 0 0 0 0 0
+Link.0.LaneSection.0.Start = 0
+Link.0.LaneSection.0.LaneL.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.0.LaneL.0.Width:
+	0 0 0 3 0 -999 -999
+Link.0.LaneSection.0.LaneL.1 = 2 2 2 5 0 0 0
+Link.0.LaneSection.0.LaneR.0 = 0 3 3 0 0 0 0
+Link.0.LaneSection.0.LaneR.0.Width:
+	0 0 0 3 0 -999 -999
+Link.0.LaneSection.0.LaneR.1 = 2 2 2 5 0 0 0
+Link.0.Marker.0.Type = DrvPylon
+Link.0.Marker.0.Param = 4.5 0 0 0 0 1 4.9
+Link.0.RoadMarking.0 = 0 0 0 1 -0.1 1 0.15 0 1 0 0 5 0 1 1 4 ""
+Link.0.RoadMarking.1 = 0 0 0 1 0.1 -1 0.15 0 1 0 0 5 0 1 1 4 ""
+Link.0.RoadMarking.2 = 4.5 0 4.5 0 0 0 0.15 0 1 1 0 0 0 0 1 4 ""
+Link.0.RoadMarking.2.PointList:
+	0 0
+	0 2.5
+	0 -2.5
+Route.0.Name = Route
+Route.0.LinkList:
+	0 0
+Route.0.Path.0:
+	0 0 0
+Route.1.Name = ReverseRoute
+Route.1.LinkList:
+	0 1
+Route.1.Path.0:
+	0 0 0

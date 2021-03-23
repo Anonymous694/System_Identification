@@ -1,0 +1,30 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-TestWareTemplate 1.0
+FileCreator = CarMaker for Simulink 6.0.3 2017-9-22
+Description:
+Name = Beschleunigte Slalomfahrt
+Image =
+LastChange = 2019-09-05 14:09:03 ugdnl
+Mode = standard
+UserParam.0.Name = Pedal
+UserParam.0.Unit =
+UserParam.0.Values = 1
+UserParam.1.Name = Amplitude
+UserParam.1.Unit = deg
+UserParam.1.Values = 30
+UserParam.2.Name = Periode
+UserParam.2.Unit = s
+UserParam.2.Values = 5
+UserParam.3.Name = e2 Lenk
+UserParam.3.Unit =
+UserParam.3.Values = 1
+Step.0 = Settings
+Step.0.Name = Global Settings
+Step.1 = TestRun
+Step.1.Name = Beschleunigte Slalomfahrt
+Step.1.Param.0 = ped NValue
+Step.1.Param.1 = amp NValue
+Step.1.Param.2 = per NValue
+Step.1.Param.3 = e2Lenk NValue
+Step.1.Var.0.Name = Variation 0
+Step.1.Var.0.Param = {$up0} {$up1} {$up2} {$up3}

@@ -1,0 +1,22 @@
+# ChannelAliases
+# Multiple aliases have to be separated with whitespace
+# Example: Velocity = Speed	Vel
+Time            =
+Distance        =
+Velocity        =
+StWhlAngle      =
+StWhlTrq        =
+Gas             =
+Brake           =
+Clutch          =
+GearNo          =
+SelectorCtrl    =
+BrakePark       =
+pMC             =
+User1           =
+User2           =
+User3           =
+User4           =
+BrakeLever      =
+pMCPedal        =
+pMCLever        =

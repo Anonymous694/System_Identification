@@ -1,0 +1,22 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-DVA 4.0
+nDialogQu = 15
+Qu.0.Name = DM.Steer.Trq
+Qu.0.Mode = - value
+Qu.0.Groups = G1 G2
+Qu.0.Count = 1000000
+Qu.0.Value = 0
+Qu.0.Unit = Nm
+Qu.1.Name = PT.Control.Motor.Trq_trg
+Qu.1.Mode = - value
+Qu.1.Groups = G1 G2
+Qu.1.Count = 1000000
+Qu.1.Value = -50
+Qu.1.Unit = Nm
+Qu.2.Name = PT.Control.Motor1.Trq_trg
+Qu.2.Mode = - value
+Qu.2.Groups = G1 G2
+Qu.2.Count = 1000000
+Qu.2.Value = 50
+Qu.2.Unit = Nm
+nQu = 3

@@ -1,0 +1,62 @@
+#INFOFILE1.1 - Do not remove this line!
+FileIdent = CarMaker-Tire-RTTire 3
+FileCreator = CarMaker for Simulink 2020-05-15 10:32:45
+Description:
+	Created with IPG Tire Data Set Generator Version 1.0 (2015-06-09)
+	Generated - not validated - Tire data
+	Based on '165-70R10-p2.50.tdx'
+	""
+	#   Load:      32 points [ 0 N  to  5687.5 N ]
+	#   Slip:     128 points [ -0.15   to  0.15 ]
+	#   Alpha:    128 points [ -12 deg  to  12 deg ]
+
+
+## General ###############################################################
+Side = left
+StandStill.cLong = 0.01
+StandStill.cSide = 0.01
+StandStill.vMax = 0.25
+
+
+## Visualization #########################################################
+FLoadMax = 4550
+NomWidth = 0.165
+AspectRatio = 0.7
+
+
+## RT-Tire ###############################################################
+muRoad = 1
+KinRollRadius = 0.2395
+NomRadius = 0.2425
+Radial.Stiffness = 321839
+Radial.Damping = 3207
+
+RollResist.Kind = TrqLoadVel
+RollResist.TrqLoadVel.Press = 250.0
+RollResist.TrqLoadVel.alpha = -0.5
+RollResist.TrqLoadVel.beta = 1.04
+RollResist.TrqLoadVel.a = 0.3195
+RollResist.TrqLoadVel.b = 0.02096
+RollResist.TrqLoadVel.c = 0
+
+LongFrc.Length = 0.05
+SideFrc.Length = 0.1
+AlignTrq.Length = 0.1
+LongFrc.Stiffness = 1
+SideFrc.Stiffness = 1
+AlignTrq.Stiffness = 1
+
+InclinAngle2OffsetFy = 0.0
+InclinAngle2OffsetMz = 0.0
+InclinAngle2Alpha = 0.0
+
+TurnSlip.MzMax = 0.0
+TurnSlip.cMz = 0.0
+TurnSlip.Alpha2Mz = 0.0
+
+BinFName = 165-70R10-p2.50.bin
+
+
+## Additional Parameters #################################################
+CreateArgs = -if Data/Tire/Examples/165-70R10-p2.50.tdx -of Data/Tire/Examples/165-70R10-p2.50
+StandStill.cAlign = 0.01
